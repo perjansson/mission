@@ -1,0 +1,233 @@
+@font-face {
+  font-family : 'OpenSans';
+  font-weight : 200;
+  font-style: normal;
+  src : url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family : 'Source Code Pro';
+  font-weight : 400;
+  font-style: normal;
+  src : url(../fonts/SourceCodePro-Regular.otf);
+}
+@font-face {
+  font-family : 'Source Code Pro';
+  font-weight : 700;
+  font-style: normal;
+  src : url(../fonts/SourceCodePro-Bold.otf);
+}
+
+@font-face {
+  font-family : 'OpenSans';
+  font-weight : 200;
+  font-style: italic;
+  src : url(../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family : 'BebasNeue';
+  font-weight : 200;
+  font-style: normal;
+  src : url(../fonts/BebasNeue-Light.otf);
+}
+
+@font-face {
+  font-family : 'BebasNeue';
+  font-weight : bold;
+  font-style: normal;
+  src : url(../fonts/BebasNeue-Bold.otf);
+}
+
+*, html, body, form, p, strong, em, .ui.list{
+  font-family: "OpenSans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+blockquote > p {
+  font-family:"Georgia";
+  font-style: italic;
+  color: #888;  
+}
+
+h1, h1.ui.header{
+  font-size:48px;
+}
+h2, h2.ui.header{
+  font-size:42px;
+  margin-bottom:6px;
+}
+h3, h3.ui.header{
+  font-size:22px;
+}
+h4, h4.ui.header{
+  font-size:16px
+}
+
+.ui.header, h1, h2, h3, h4, h5 {
+  font-family: "BebasNeue";
+  margin-top:32px;
+}
+
+.ui.list .list>.item>.content, .ui.list>.item>.content {
+  line-height: 1.8
+}
+
+p, .ui.text.container {
+  line-height: 1.9
+}
+
+pre, code, pre span, code span{
+  font-family: "Source Code Pro", Courier, monospace !important;
+  font-size:13px;
+	font-weight:normal;
+	line-height:1.5;
+  word-wrap: break-word;
+  page-break-inside: avoid;
+}
+
+.highlight, pre > .highlight {
+  font-family: "Source Code Pro", Courier, monospace !important;
+  font-size:13px;
+}
+
+p > code {
+  font-family: "Source Code Pro", monospace;
+  font-size:13px;
+  background-color: #e0f7fb;
+  padding:1px;
+  border:1px solid #00c3e6;
+  border-radius: 4px;
+}
+code, pre{
+  border:1px solid #e5e5e5;
+  border-radius: 8px;
+  overflow:auto;
+  padding:12px;
+  background-color: #F8F8F8;
+}
+.caption{
+  text-align: center;
+  font-size:13px;
+  color: #888;
+  text-align: center;
+  font-size:13px;
+  font-style:italic;
+  margin-bottom:36px;
+  margin-top:-36px;
+}
+figure {
+  margin-top:32px;
+  margin-bottom:32px;
+}
+figcaption {
+  text-align: center;
+  font-size:13px;
+  color:#888;
+  font-style:italic;
+  padding-top:12px;
+}
+.ui.message {
+  margin-top:52px;
+  margin-bottom: 52px;
+  word-wrap: break-word;
+  page-break-inside: avoid;
+}
+.ui.message h3 {
+  margin-top: 12px;
+}
+
+.commit {
+  border:1px solid #e5e5e5;
+  border-radius: 8px;
+  background-color: #F8F8F8;
+  page-break-inside: avoid;
+}
+.ui.items > .item > .content > a.header {
+  color: #4183CF
+}
+
+.hidden.menu {
+   display: none;
+ }
+
+ .masthead.segment {
+   min-height: 700px;
+   padding: 1em 0em;
+ }
+ .masthead .logo.item img {
+   margin-right: 1em;
+ }
+ .masthead .ui.menu .ui.button {
+   margin-left: 0.5em;
+ }
+ .masthead h1.ui.header {
+   margin-top: 3em;
+   margin-bottom: 0em;
+   font-size: 4em;
+   font-weight: normal;
+ }
+ .masthead h2 {
+   font-size: 1.7em;
+   font-weight: normal;
+ }
+
+ .ui.vertical.stripe {
+   padding: 8em 0em;
+ }
+ .ui.vertical.stripe h3 {
+   font-size: 2em;
+ }
+ .ui.vertical.stripe .button + h3,
+ .ui.vertical.stripe p + h3 {
+   margin-top: 3em;
+ }
+ .ui.vertical.stripe .floated.image {
+   clear: both;
+ }
+ .ui.vertical.stripe p {
+   font-size: 1.33em;
+ }
+ .ui.vertical.stripe .horizontal.divider {
+   margin: 3em 0em;
+ }
+
+ .quote.stripe.segment {
+   padding: 0em;
+ }
+ .quote.stripe.segment .grid .column {
+   padding-top: 5em;
+   padding-bottom: 5em;
+ }
+
+ .footer.segment {
+   padding: 5em 0em;
+ }
+
+ .secondary.pointing.menu .toc.item {
+   display: none;
+ }
+
+ @media only screen and (max-width: 700px) {
+   .ui.fixed.menu {
+     display: none !important;
+   }
+   .secondary.pointing.menu .item,
+   .secondary.pointing.menu .menu {
+     display: none;
+   }
+   .secondary.pointing.menu .toc.item {
+     display: block;
+   }
+   .masthead.segment {
+     min-height: 350px;
+   }
+   .masthead h1.ui.header {
+     font-size: 2em;
+     margin-top: 1.5em;
+   }
+   .masthead h2 {
+     margin-top: 0.5em;
+     font-size: 1.5em;
+   }
+ }
